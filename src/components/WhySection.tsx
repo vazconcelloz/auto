@@ -4,7 +4,7 @@ const features = [
   {
     icon: HandCoins,
     title: "8 Milhões\nem economia",
-    description: "Com nossas análises de contrato, garantimos para nossos clientes uma economia de R$ 8.000.000 no último ano.",
+    description: "Com nossas análises de contrato, garantimos para nossos clientes uma economia de R$ 8.000.000 em 2025.",
   },
   {
     icon: BadgeCheck,
@@ -14,12 +14,12 @@ const features = [
   {
     icon: ChartNoAxesCombined,
     title: "Antecipação e contenção de reajustes",
-    description: "Estratégias avançadas para proteger sua empresa nos reajustes anuais.",
+    description: "Estratégias validadas para proteger sua empresa nos reajustes anuais.",
   },
   {
     icon: HeartHandshake,
     title: "Suporte contínuo e especializado",
-    description: "Nosso suporte não termina após a contratação. Ele se torna parte da sua equipe.",
+    description: "Nosso suporte não termina após a contratação. Nos tornamos parte da sua equipe.",
   },
 ];
 

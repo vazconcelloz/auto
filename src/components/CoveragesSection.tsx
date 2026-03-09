@@ -5,7 +5,7 @@ const coverages = [
     icon: BriefcaseBusiness,
     title: "Entregamos soluções personalizadas",
     description:
-      "Escolha os planos que mais se encaixam no seu perfil e no seu investimento, na FBN você encontra o que precisa para ter o melhor custo benefício do mercado.",
+      "Escolha os planos que mais se encaixam no seu perfil e no seu investimento, na FBN você encontra o que precisa para ter o melhor custo benefício do mercado para sua empresa.",
   },
   {
     icon: Stethoscope,
@@ -29,13 +29,13 @@ const coverages = [
     icon: ShieldCheck,
     title: "Acesso privilegiado",
     description:
-      "Conheça seus direitos. A FBN faz questão de mostrar os benefícios disponíveis. Um simples desconto em farmácia, pode trazer grandes economias se bem utilizado.",
+      "Conheça seus direitos. A FBN faz questão de mostrar os benefícios disponíveis. Informações atualizadas, podem trazer grandes economias, se bem utilizado.",
   },
   {
     icon: MapPinned,
     title: "Seu plano onde você precisa",
     description:
-      "Defina a cobertura abrangente. O mais comum é o plano de atendimento na cidade de contratação e nas localidades próximas.",
+      "Analisamos e adequamos a oferrta baseando-se nas localidades que são importantes para você.",
   },
 ];
 
