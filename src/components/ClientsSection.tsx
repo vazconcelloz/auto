@@ -13,11 +13,11 @@ type ClientLogo = {
 
 const clientsRow1: ClientLogo[] = [
   { name: "ABLA", logo: logoAbla },
-  { name: "Specialist", logo: logoSpecialist, logoClassName: "scale-[1.35]" },
+  { name: "AMMA", logo: logoAmma, logoClassName: "scale-[1.2]" },
   { name: "LAAV", logo: logoLaav, logoClassName: "scale-[2.2]" },
   { name: "Frison", logo: logoFrison },
   { name: "Sindirepa", logo: logoSindirepa, logoClassName: "scale-[1.2]" },
-  { name: "AMMA", logo: logoAmma, logoClassName: "scale-[1.2]" },
+  { name: "Specialist", logo: logoSpecialist, logoClassName: "scale-[1.35]" },
 ];
 
 const MarqueeRow = ({ clients, direction }: { clients: ClientLogo[]; direction: "left" | "right" }) => {
