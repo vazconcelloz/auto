@@ -1,4 +1,4 @@
-import { BriefcaseBusiness, Stethoscope, Handshake, LayoutDashboard, ShieldCheck, MapPinned } from "lucide-react";
+import { BriefcaseBusiness, ChartNoAxesColumn, Handshake, LayoutDashboard, ShieldCheck, MapPinned } from "lucide-react";
 import logoAmil from "@/assets/Logo-Amil.png";
 import logoBradesco from "@/assets/Logo-Bradesco.png";
 import logoOmint from "@/assets/Logo-Omint.png";
@@ -13,10 +13,10 @@ const coverages = [
       "Escolha os planos que mais se encaixam no seu perfil e no seu investimento, na FBN você encontra o que precisa para ter o melhor custo benefício do mercado para sua empresa.",
   },
   {
-    icon: Stethoscope,
-    title: "Medicina na palma da mão",
+    icon: ChartNoAxesColumn,
+    title: "Análises preventivas",
     description:
-      "Utilize consultas à distância usando tecnologia de telecomunicações, permitindo consultas e tratamentos online.",
+      "Mantemos análise frequente do seu contrato, evitando surpresas negativas, como mudanças e reajustes elevados.",
   },
   {
     icon: Handshake,
