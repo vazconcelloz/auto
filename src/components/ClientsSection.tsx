@@ -4,6 +4,7 @@ import logoFrison from "@/assets/Logo-Frison.png";
 import logoLaav from "@/assets/Logo-LAAV.png";
 import logoSindirepa from "@/assets/Logo-Sindirepa.jpg";
 import logoSpecialist from "@/assets/Logo-Specialist.jpg";
+import logoAmigaDaOficina from "@/assets/Amiga-da-oficina.png";
 
 type ClientLogo = {
   name: string;
@@ -17,7 +18,7 @@ const clientsRow1: ClientLogo[] = [
   { name: "LAAV", logo: logoLaav, logoClassName: "scale-[1.65]" },
   { name: "Frison", logo: logoFrison },
   { name: "Sindirepa", logo: logoSindirepa, logoClassName: "scale-[1.2]" },
-  { name: "Specialist", logo: logoSpecialist, logoClassName: "scale-[1.35]" },
+  { name: "Specialist", logo: logoSpecialist, logoClassName: "scale-[1.65]" },
 ];
 
 const MarqueeRow = ({ clients, direction }: { clients: ClientLogo[]; direction: "left" | "right" }) => {
@@ -49,11 +50,21 @@ const ClientsSection = () => {
   return (
     <section className="pt-4 pb-16 md:pt-8 md:pb-24 bg-background overflow-x-clip">
       <div className="container px-4 md:px-8 mb-7 md:mb-8">
-        <h2 className="text-2xl md:text-3xl font-heading font-bold text-center text-foreground">
-          Parcerias estratégicas com grandes entidades do <span className="text-primary">setor automotivo</span>
-        </h2>
+        <div className="relative max-w-5xl mx-auto rounded-xl border border-primary/20 bg-primary/5 px-5 py-4 pr-20 md:px-6 md:py-5 md:pr-24 text-center overflow-hidden">
+          <img
+            src={logoAmigaDaOficina}
+            alt="Selo Empresa Amiga da Oficina"
+            className="absolute right-3 top-[42%] w-20 -translate-y-1/2 rotate-12 opacity-80 pointer-events-none select-none md:right-5 md:w-24"
+            loading="lazy"
+          />
+          <h3 className="text-2xl md:text-3xl font-heading font-bold text-foreground">
+            Reconhecimento no <span className="text-primary">mercado automotivo</span>
+          </h3>
+          <p className="mt-2 text-sm md:text-base text-muted-foreground leading-relaxed">
+            Empresa "Amiga da Oficina", título concedido pelo Sindirepa, Sindicato Nacional da Reparação Automotiva.
+          </p>
+        </div>
       </div>
-
       <MarqueeRow clients={clientsRow1} direction="left" />
     </section>
   );

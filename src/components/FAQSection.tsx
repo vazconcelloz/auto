@@ -13,9 +13,9 @@ const faqs = [
     Avaliamos o tipo de veículo, rotina de uso, região de circulação e coberturas necessárias. Com base nisso, apresentamos opções com melhor equilíbrio entre proteção e investimento.`,
   },
   {
-    question: "Quais informações são necessárias para cotar um seguro automotivo?",
+    question: "Quais informações são necessárias para realizar o estudo do seguro automotivo?",
     answer:
-      "Normalmente solicitamos dados básicos do condutor principal, informações do veículo e histórico de uso. Esses dados ajudam a montar uma cotação precisa e alinhada ao seu risco.",
+      "Normalmente solicitamos dados básicos do condutor principal, informações do veículo e histórico de uso. Esses dados ajudam a montar uma estudo preciso e alinhado ao seu risco.",
   },
   {
     question: "O seguro automotivo tem carência?",
@@ -28,9 +28,9 @@ const faqs = [
       "Sim. É possível ajustar franquia, cobertura para terceiros, vidros, carro reserva, assistência 24h e outras proteções adicionais conforme sua necessidade.",
   },
   {
-    question: "Como faço para iniciar minha cotação?",
+    question: "Como faço para iniciar meu estudo?",
     answer:
-      "Clique em [CTA_ESTUDO] e envie suas informações básicas. A equipe da FBN entra em contato para montar a melhor proposta de seguro automotivo.",
+      "Clique em [CTA_ESTUDO] e envie suas informações básicas. A equipe da FBN entra em contato para montar a melhor solução de seguro automotivo.",
   },
 ];
 

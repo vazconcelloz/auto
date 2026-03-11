@@ -17,7 +17,7 @@ const coverages = [
     icon: Handshake,
     title: "Cobertura para terceiros e danos materiais",
     description:
-      "Proteção para responsabilidades civis e imprevistos que envolvam outros veículos, pessoas e patrimônio.",
+      "Proteção para responsabilidade civil e imprevistos que envolvam outros veículos, pessoas e patrimônio.",
   },
   {
     icon: LayoutDashboard,
@@ -35,7 +35,7 @@ const coverages = [
     icon: MapPinned,
     title: "Suporte em sinistro do início ao fim",
     description:
-      "Acompanhamos todo o processo de acionamento para reduzir burocracia e acelerar cada etapa da sua indenização.",
+      "Acompanhamos todo o processo de junto à seguradora para reduzir burocracia e acelerar cada etapa da sua indenização.",
   },
 ];
 

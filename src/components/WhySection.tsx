@@ -1,5 +1,4 @@
 import { CarFront, ShieldCheck, FileSearch, Headset } from "lucide-react";
-import logoAmigaDaOficina from "@/assets/Amiga-da-oficina.png";
 
 const features = [
   {
@@ -10,7 +9,7 @@ const features = [
   {
     icon: ShieldCheck,
     title: "Atendimento eficiente de verdade",
-    description: "O mercado oferece respostas genéricas e tabelas. Nós entregamos soluções adaptadas à sua realidade.",
+    description: "O mercado oferece respostas genéricas. Nós entregamos soluções adaptadas à sua necessidade.",
   },
   {
     icon: FileSearch,
@@ -19,8 +18,8 @@ const features = [
   },
   {
     icon: Headset,
-    title: "Suporte durante todo o contrato",
-    description: "Continuamos ao seu lado após a contratação, acompanhando reajustes e auxiliando em sinistros.",
+    title: "Suporte durante todo o \n contrato",
+    description: "Continuamos ao seu lado após a contratação, acompanhando renovações e auxiliando em sinistros.",
   },
 ];
 
@@ -34,20 +33,6 @@ const WhySection = () => {
           clientes escolheram a FBN?
         </h2>
 
-        <div className="relative mt-6 max-w-5xl mx-auto rounded-xl border border-primary/20 bg-primary/5 px-5 py-4 pr-20 md:px-6 md:py-5 md:pr-24 text-center overflow-hidden">
-          <img
-            src={logoAmigaDaOficina}
-            alt="Selo Empresa Amiga da Oficina"
-            className="absolute right-3 top-[42%] w-20 -translate-y-1/2 rotate-12 opacity-80 pointer-events-none select-none md:right-5 md:w-24"
-            loading="lazy"
-          />
-          <h3 className="text-sm md:text-base font-heading font-bold text-primary">
-            Reconhecimento no mercado automotivo
-          </h3>
-          <p className="mt-2 text-sm md:text-base text-muted-foreground leading-relaxed">
-            Empresa “Amiga da Oficina”, título concedido pelo Sindirepa, Sindicato nacional da reparação automotiva;
-          </p>
-        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-12">
           {features.map((feature, index) => (
